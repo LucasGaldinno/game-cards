@@ -16,10 +16,12 @@ Link do Repositório: https://github.com/LucasGaldinno/quiz-lima
 
 Link do jogo: https://lucasgaldinno.github.io/quiz-lima/
 
-Depois de acessar o link acima você tera quatro alternativas e uma delas é a correta, clique no botão confirmar, 
+Depois de acessar o link acima você tem quatro alternativas, e apenas uma delas está correta, clique no botão confirmar, 
 em seguida vai aparecer uma mensagem dizendo se você acertou ou se você erro, note na imagem como funciona....
 
 ![exemplo!](https://lucasgaldinno.github.io/quiz-lima/Exemplo%202.png)
+
+
 
 
 
