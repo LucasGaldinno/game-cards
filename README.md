@@ -25,7 +25,7 @@ você ganha 10 pontos por cada questão que você acertar
 
 ![exemplo!](https://lucasgaldinno.github.io/quiz-lima/exemplo3.png)
 
-Depois de ter respondido todas as questões lá em cima vai no começo da página vai mostrar quantos pontos você conseguiu no jogo, caso acerte todas as questões a sua pontuação será de 120 pontos..
+Depois de ter respondido todas as questões lá em cima no começo da página vai mostrar quantos pontos você conseguiu no jogo, caso acerte todas as questões a sua pontuação será de 120 pontos..
 A pontuação máxima que pode alcançar no jogo é 120 pontos, sendo que uma questão acertada vale 10 pontos.
 
 ![Ex4!](https://lucasgaldinno.github.io/quiz-lima/Ex4.png)
