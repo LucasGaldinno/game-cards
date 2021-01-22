@@ -6,4 +6,4 @@ Wireframe
 
 O Wireframe desste projeto considera não apenas computadores pessoais, mas também dispositivos móveis, veja abaixo a imagem do Wireframe.
 
-![Philadelphia's Magic Gardens. This place was so cool!](https://lucasgaldinno.github.io/quiz-lima/Wireframe.png)
+![Wireframe!](https://lucasgaldinno.github.io/quiz-lima/Wireframe.png)
