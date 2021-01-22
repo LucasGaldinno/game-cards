@@ -16,7 +16,7 @@ Link do Repositório: https://github.com/LucasGaldinno/quiz-lima
 
 Link do jogo: https://lucasgaldinno.github.io/quiz-lima/game.html
 
-Depois de acessar o link acima você tem quatro alternativas, e apenas uma delas está correta, clique no botão confirmar, 
+Depois de acessar o link acima você tem alguns cards com quatro alternativas, e apenas uma delas está correta, clique no botão confirmar, 
 em seguida vai aparecer uma mensagem dizendo se você acertou ou se você erro, note na imagem como funciona....
 
 ![exemplo!](https://lucasgaldinno.github.io/quiz-lima/Exemplo%202.png)
@@ -25,7 +25,7 @@ você ganha 10 pontos por cada questão que você acertar
 
 ![exemplo!](https://lucasgaldinno.github.io/quiz-lima/exemplo3.png)
 
-Depois de ter respondido todas as questões lá em cima no começo da página vai mostrar quantos pontos você conseguiu no jogo, caso acerte todas as questões a sua pontuação será de 120 pontos..
+Depois de ter respondido todas as questões, no início da página vai mostrar quantos pontos você conseguiu no jogo, caso acerte todas as questões a sua pontuação será de 120 pontos..
 A pontuação máxima que pode alcançar no jogo é 120 pontos, sendo que uma questão acertada vale 10 pontos.
 
 ![Ex4!](https://lucasgaldinno.github.io/quiz-lima/Ex4.png)
