@@ -21,6 +21,12 @@ em seguida vai aparecer uma mensagem dizendo se você acertou ou se você erro, 
 
 ![exemplo!](https://lucasgaldinno.github.io/quiz-lima/Exemplo%202.png)
 
+você ganha 10 pontos por cada questão que você acertar
+
+![exemplo!](https://lucasgaldinno.github.io/quiz-lima/exemplo3.png)
+
+
+
 
 
 
