@@ -8,13 +8,18 @@ O Wireframe desste projeto considera não apenas computadores pessoais, mas tamb
 
 ![Wireframe!](https://lucasgaldinno.github.io/quiz-lima/Wireframe.png)
 
-<h1><strong>Leia o manual do jogo</strong></h1> 
+<h2><strong>Leia o manual do jogo</strong></h2> 
 
 Aqui você vai ver algumas caprturas de tela de como se joga esse jogo
 
 Link do Repositório: https://github.com/LucasGaldinno/quiz-lima
 
 Link do jogo: https://lucasgaldinno.github.io/quiz-lima/
+
+Depois de acessar o link acima você tera quatro alternativas e uma delas é a correta, clique no botão confirmar, 
+em seguida vai aparecer uma mensagem dizendo se você acertou ou se você erro, note na imagem como funciona....
+
+![exemplo!](https://lucasgaldinno.github.io/quiz-lima/Exemplo%202.png)
 
 
 
