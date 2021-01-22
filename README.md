@@ -4,7 +4,7 @@ Trabalho individual de LIMA, para fechamento do primeiro semestre do curso de de
 
 <h1><strong>Wireframe</strong></h1>
 
-O Wireframe desste projeto considera não apenas computadores pessoais, mas também dispositivos móveis, veja abaixo a imagem do Wireframe.
+O Wireframe desse projeto considera não apenas computadores pessoais, mas também dispositivos móveis, veja abaixo a imagem do Wireframe.
 
 ![Wireframe!](https://lucasgaldinno.github.io/quiz-lima/Wireframe.png)
 
