@@ -10,7 +10,7 @@ O Wireframe desse projeto considera não apenas computadores pessoais, mas tamb�
 
 <h2><strong>Leia o manual do jogo</strong></h2> 
 
-<h1><strong>Veja algumas capturas de tela, e explore os recursos.</strong></h1>
+<h1><strong>Veja algumas capturas de tela e explore os recursos.</strong></h1>
 
 Link do Repositório: https://github.com/LucasGaldinno/quiz-lima
 
