@@ -6,7 +6,7 @@ Trabalho individual de LIMA, para fechamento do primeiro semestre do curso de de
 
 O Wireframe desse projeto considera não apenas computadores pessoais, mas também dispositivos móveis, veja abaixo a imagem do Wireframe.
 
-![Wireframe!](https://lucasgaldinno.github.io/quiz-lima/Wireframe.png)
+![Wireframe!](https://raw.githubusercontent.com/LucasGaldinno/game-cards/main/Wireframe.png)
 
 <h2><strong>Leia o manual do jogo</strong></h2> 
 
