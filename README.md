@@ -12,10 +12,6 @@ O Wireframe desse projeto considera não apenas computadores pessoais, mas tamb�
 
 <h1><strong>Veja algumas capturas de tela e explore os recursos.</strong></h1>
 
-Link do Repositório: https://github.com/LucasGaldinno/quiz-lima
-
-Link do jogo: https://lucasgaldinno.github.io/quiz-lima/game.html
-
 Depois de acessar o link acima você tem alguns cards com quatro alternativas, e apenas uma delas está correta, clique no botão confirmar, 
 em seguida vai aparecer uma mensagem dizendo se você acertou ou se você errou, note na imagem como funciona....
 
