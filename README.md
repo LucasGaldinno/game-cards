@@ -1,6 +1,7 @@
 <h1><strong>Projeto Quiz de Anime</strong></h1>
 
-Trabalho individual de LIMA, para fechamento do primeiro semestre do curso de desenvolvimento de sistemas do SENAI
+Esse projeto é um quiz do anime Yu-Gi-Oh que possui 4 alternativas e apenas uma contém a resposta certa selecione a alternativa que você acha que está certa e clique em verificar, se você acertar vai ganhar 20 pontos, mas se errar vai perder 10 pontos. Teste seus conhecimentos no anime e boa sorte, espero que goste.
+
 
 <h1><strong>Wireframe</strong></h1>
 
