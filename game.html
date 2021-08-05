@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/game.css" />
+    <link rel="shortcut icon"  href="./assets/img/faviicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/mobile.css">
+
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Fonte do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <title>Quiz - Anime Yu-Gi-Oh</title>
+  </head>
+  <body>
+    <div class="nav">
+      <a class="btn-two" href="ranking.html">Ranking</a>
+      <button onclick="refresh()" class="btn-new"> Jogar De Novo</button>
+      <button class="btn2" onclick="saveRecord()">Salvar</button>
+      <p class="pontos">
+        Pontuação:<span id="record"></span>
+        <label id="pontuacaoAtual"></label>
+        Record:<span id="nick_1"></span>
+        <span class="textInv" id="points_1"></span>
+      </p>
+    </div>
+    <div class="container">
+      <div id="deck">
+        <div id="card-1" class="perguntas">
+          <img class="img" src="./assets/img/pergunta-01.jpg" alt="" />
+          <br />
+          <h3>Em Yu-Gi-Oh! THE DARK SIDE OF DIMENSIONS <br>no duelo, Kaiba vs Yugi, quem foi o vencedor?<br></h3>
+          <br />
+          <input type="radio" name="alternativa1" value="" id="Errada" />Kaiba
+          <input type="radio" name="alternativa1" value="" id="Errada" />Yugi
+          <input type="radio" name="alternativa1" value="" id="correta1" />O duelo foi interrompido
+          <input type="radio" name="alternativa1" value="" id="Errada"/>O duelo terminou em empate
+          <button class="btn" onclick="verificar1()">Verificar</button>
+          <span id="span1" class="span"></span>
+        </div>
+        <div id="card-2" class="perguntas">
+          <img class="img" src="./assets/img/pergunta-02.jpg" alt="" />
+          <br />
+          <h3>Qual é a carta de deus egípcio mais forte?</h3>
+          <br />
+          <input type="radio" name="alternativa2" value="" id="correta2" />Dragão Alado de Rá
+          <input type="radio" name="alternativa2" value="" id="Errada" />Obelisco o Atormentador
+          <input type="radio" name="alternativa2" value="" id="Errada" />Slifer o Dragão do Céu
+          <input type="radio" name="alternativa2" value="" id="Errada"/>The Creator God Light Horakhty 
+          <button class="btn" onclick="verificar2()">Verificar</button>
+          <span id="span2" class="span"></span>
+        </div>
+        <div id="card-3" class="perguntas">
+          <img class="img" src="./assets/img/pergunta-03.jpg" alt="" />
+          <br />
+          <h3>Contra quem o, Faraó, saca a carta Exodia?</h3>
+          <br />
+          <input type="radio" name="alternativa3" value="" id="Errada" />Joey
+          <input type="radio" name="alternativa3" value="" id="Errada" />Mai
+          <input type="radio" name="alternativa3" value="" id="Errada" />Téa
+          <input type="radio" name="alternativa3" value="" id="correta3"/>Kaiba
+          <button class="btn" onclick="verificar3()">Verificar</button>
+          <span id="span3" class="span"></span>
+        </div>
+        <div id="card-4" class="perguntas">
+          <img class="img" src="./assets/img/pergunta-04.jpg" alt="" />
+          <br />
+          <h3>Em Yu-Gi-Oh! THE DARK SIDE OF DIMENSIONS <br>no duelo, Kaiba vs Faraó, quem foi o vencedor?<br></h3>
+          <br />
+          <input type="radio" name="alternativa4" value="" id="correta4" />Kaiba
+          <input type="radio" name="alternativa4" value="" id="Errada" />Faraó
+          <input type="radio" name="alternativa4" value="" id="Errada" />O duelo terminou em empate
+          <input type="radio" name="alternativa4" value="" id="Errada"/>O duelo foi interrompido
+          <button class="btn" onclick="verificar4()">Verificar</button>
+          <span id="span4" class="span"></span>
+        </div>
+        <div id="card-5" class="perguntas">
+          <img class="img" src="./assets/img/pergunta-05.jpg" alt="" />
+          <br />
+          <h3>Qual é a reliquia do Milênio que, Pegasus,<br> possui?</h3>
+          <br />
+          <input type="radio" name="alternativa5" value="" id="Errada" />Cetro do milênio
+          <input type="radio" name="alternativa5" value="" id="Errada" />Colar do Milênio
+          <input type="radio" name="alternativa5" value="" id="Errada" />O Anel do Milênio
+          <input type="radio" name="alternativa5" value="" id="correta5" />Olho do Milênio
+          <button class="btn" onclick="verificar5()">Verificar</button>
+          <span id="span5" class="span"></span>
+        </div>
+        <div id="card-6" class="perguntas">
+          <img class="img" src="./assets/img/pergunta-06.jpg" alt="" />
+          <br />
+          <h3>Qual é a reliquia do Milênio que, Bakura, possui?</h3>
+          <br />
+          <input type="radio" name="alternativa6" value="" id="Errada" />Olho do Milênio
+          <input type="radio" name="alternativa6" value="" id="correta6" />O Anel do Milênio
+          <input type="radio" name="alternativa6" value="" id="Errada" />Colar do Milênio
+          <input type="radio" name="alternativa6" value="" id="Errada"/>Cetro do milênio
+          <button class="btn" onclick="verificar6()">Verificar</button>
+          <span id="span6" class="span"></span>
+        </div>
+        <div id="card-7" class="perguntas">
+          <img class="img" src="./assets/img/pergunta-07.jpg" alt="" />
+          <br />
+          <h3>Qual é o nome dessa carta?</h3>
+          <br />
+          <input type="radio" name="alternativa7" value="" id="Errada" />Pote da Ganância
+          <input type="radio" name="alternativa7" value="" id="Errada" />Trap Jammer
+          <input type="radio" name="alternativa7" value="" id="correta7" />Lacre de Orichalcos
+          <input type="radio" name="alternativa7" value="" id="Errada" />Magic Cylinder
+          <button class="btn" onclick="verificar7()">Verificar</button>
+          <span id="span7" class="span"></span>
+        </div>
+        <div id="card-8" class="perguntas">
+          <img class="img" src="./assets/img/pergunta-08.jpg" alt="" />
+          <br />
+          <h3>Quais cartas fazem a fusão da carta, The Creator <br>God Light Horakhty?</h3>
+          <br />
+          <input type="radio" name="alternativa8" value="" id="correta8" />Rá, Obelisco, Slifer 
+          <input type="radio" name="alternativa8" value="" id="Errada" />Rei Caveira, Kuriboh, Copycat
+          <input type="radio" name="alternativa8" value="" id="Errada" />Exodia, Hero NEOS, Dragão Branco de Olhos Azuis
+          <input type="radio" name="alternativa8" value="" id="Errada" />Buster Blader, Skull Dragon, Barrel Dragon
+          <button class="btn" onclick="verificar8()">Verificar</button>
+          <span id="span8" class="span"></span>
+        </div>
+        <div id="card-9" class="perguntas">
+          <img class="img" src="./assets/img/pergunta-09.png" alt="" />
+          <br />
+          <h3>Qual é o nome desse personagem?</h3>
+          <br />
+          <input type="radio" name="alternativa9" value="" id="correta9" />Mako Tsunami
+          <input type="radio" name="alternativa9" value="" id="Errada" />Joey
+          <input type="radio" name="alternativa9" value="" id="Errada" />Jaden
+          <input type="radio" name="alternativa9" value="" id="Errada" />Yami Merik
+          <button class="btn" onclick="verificar9()">Verificar</button>
+          <span id="span9" class="span"></span>
+        </div>
+        <div id="card-10" class="perguntas">
+          <img class="img" src="./assets/img/pergunta10.jpg" alt="" />
+          <br />
+          <h3>Qual é o nome desse personagem?</h3>
+          <br />
+          <input type="radio" name="alternativa10" value="" id="Errada" />Rafael
+          <input type="radio" name="alternativa10" value="" id="Errada" />Bandit Keith
+          <input type="radio" name="alternativa10" value="" id="Errada" />Weevil Underwood
+          <input type="radio" name="alternativa10" value="" id="correta10" />Dartz
+          <button class="btn" onclick="verificar10()">Verificar</button>
+          <span id="span10" class="span"></span>
+        </div>
+        <div id="card-11" class="perguntas">
+          <img class="img" src="./assets/img/pergunta-11.jpg" alt="" />
+          <br />
+          <h3>No duelo final, Yugi vs Faraó, quem vence?</h3>
+          <br />
+          <input type="radio" name="alternativa11" value="" id="correta11" />Yugi Muto
+          <input type="radio" name="alternativa11" value="" id="Errada" />Faraó
+          <input type="radio" name="alternativa11" value="" id="Errada" />O duelo terminou em empate
+          <input type="radio" name="alternativa11" value="" id="Errada" />O duelo foi interrompido
+          <button class="btn" onclick="verificar11()">Verificar</button>
+          <span id="span11" class="span"></span>
+        </div>
+        <div id="card-12" class="perguntas">
+          <img class="img" src="./assets/img/pergunta-12.png" alt="" />
+          <br />
+          <h3>Qual é a reliquia do Milênio que, Marik, possui?</h3>
+          <br />
+          <input type="radio" name="alternativa12" value="" id="Errada" />O enigma do milênio
+          <input type="radio" name="alternativa12" value="" id="Errada" />Balança do milênio
+          <input type="radio" name="alternativa12" value="" id="Errada" />Colar do milênio
+          <input type="radio" name="alternativa12" value="" id="correta12" />Cetro do milênio
+          <button class="btn" onclick="verificar12()">Verificar</button>
+          <span id="span12" class="span"></span>
+        </div>
+        <a href="#" class="to-top">
+          <i class="material-icons">arrow_upward</i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./assets/js/game.js"></script>
+    <script src="./assets/js/ranking.js"></script>
+    <script src="./assets/js/scroll-up.js"></script>
+  </body>
+</html>

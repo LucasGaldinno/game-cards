@@ -1,0 +1,84 @@
+* {
+  padding: 0px;
+  margin: 0%;
+}
+
+body {
+  background: url(../img/logo.jpg) fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  color: #990303da;
+  font-size: 100px;
+}
+.container {
+  width: auto;
+  height: 100vh;
+}
+
+.botao {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  background-color: rgb(0, 38, 255);
+  border-style: none;
+  border-radius: 4px;
+  text-decoration: none;
+  width: 250px;
+  height: 70px;
+  margin-top: 0.2rem;
+  font-size: 1.8rem;
+  color: aliceblue;
+}
+
+.btn:hover {
+  background: whitesmoke;
+  color: rgb(0, 195, 255);
+  cursor: pointer;
+  box-shadow: 0 0.7rem 1.4rem 0 #000c77;
+  transition: transform 150ms;
+  transform: scale(1.03);
+}
+
+@media only screen and (max-width: 600px){
+  * {
+    padding: 0;
+    margin: 0;
+    margin-top: 18px;
+  } 
+  body {
+    background: url(../img/capamobile.jpg) fixed center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    color: #032199db;
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  body {
+    background: url(../img/logo.jpg) fixed center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    color: #990303da;
+    font-size: 100px;
+  }
+}
