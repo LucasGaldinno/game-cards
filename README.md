@@ -1,8 +1,10 @@
 ![L!](https://img.shields.io/badge/License-MIT-green) 
 
 <h1><strong>Projeto Quiz de Anime 🎮</strong></h1>
+<hr>
 
 Esse projeto é um quiz do anime Yu-Gi-Oh que tem por objetivo testar seu conhecimento no anime Yu-Gi-Oh, esse quiz possui 4 alternativas e apenas uma contém a resposta certa selecione a alternativa que você acha que está certa e clique em verificar, se você acertar vai ganhar 20 pontos, mas se errar vai perder 10 pontos. Teste seus conhecimentos no anime e boa sorte, espero que goste.
+<hr>
 
 <h3 align="center">
  Language :scroll:
@@ -12,19 +14,21 @@ Esse projeto é um quiz do anime Yu-Gi-Oh que tem por objetivo testar seu conhec
 <img src="https://camo.githubusercontent.com/3a0f693cfa032ea4404e8e02d485599bd0d192282b921026e89d271aaa3d7565/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f435353332d3135373242363f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465">
 <img src="https://camo.githubusercontent.com/9d07c04bdd98c662d5df9d4e1cc1de8446ffeaebca330feb161f1fb8e1188204/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d626c61636b">
 <p>
+<hr>
  
 <h1><strong>Wireframe :bookmark_tabs:</strong></h1>
 
 O Wireframe desse projeto considera não apenas computadores pessoais, mas também dispositivos móveis, veja abaixo a imagem do Wireframe.
 
 ![Wireframe!](https://raw.githubusercontent.com/LucasGaldinno/quiz-anime/main/Screenshots/Wireframe.png)
+<hr>
 
 <h1 align="center">
 :pushpin:Ferramenta utilizada para desenvolver o projeto:
 </h1>
 Este projeto foi desenvolvido com Visual Studio Code <br> 
 February 2021 (version 1.54)<a href="https://code.visualstudio.com/">Visual Studio Code</a>
- 
+<hr>
 
 <h1 align="center">
 :dart:Conclusão
