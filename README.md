@@ -1,4 +1,4 @@
-<h1><strong>Projeto Quiz LIMA</strong></h1>
+<h1><strong>Projeto Quiz de Anime</strong></h1>
 
 Trabalho individual de LIMA, para fechamento do primeiro semestre do curso de desenvolvimento de sistemas do SENAI
 
