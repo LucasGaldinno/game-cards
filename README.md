@@ -3,7 +3,7 @@
 <h1><strong>Projeto Quiz de Anime 🎮</strong></h1>
 <hr>
 
-Esse projeto é um quiz do anime Yu-Gi-Oh que tem por objetivo testar seu conhecimento no anime, é um jogo que possui 12 cards que contém perguntas e 4 alternativas, apenas uma contém a resposta certa selecione a alternativa que você acha que está certa e clique em verificar, se você acertar vai ganhar 20 pontos, mas se errar vai perder 10 pontos. Teste seus conhecimentos no anime e boa sorte, espero que goste.
+Esse projeto é um quiz do anime Yu-Gi-Oh que tem por objetivo testar seu conhecimento no anime, é um jogo que possui 12 cards que contém perguntas e 4 alternativas, porém, apenas uma contém a resposta certa selecione a alternativa que você acha que está certa e clique em verificar, se você acertar vai ganhar 20 pontos, mas se errar vai perder 10 pontos. Teste seus conhecimentos no anime e boa sorte, espero que goste.
 <hr>
 
 <h3 align="center">
