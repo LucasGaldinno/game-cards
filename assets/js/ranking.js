@@ -44,7 +44,7 @@ function recuperarRanking(){
   }
 }
 
-var pontuacaoAtual = 20
+var pontuacaoAtual = 0
 var ranking = recuperarRanking();
 
 exibirRanking()
