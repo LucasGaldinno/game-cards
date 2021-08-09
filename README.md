@@ -27,7 +27,7 @@ O Wireframe desse projeto considera n√£o apenas computadores pessoais, mas tamb√
 Ferramenta utilizada para desenvolver o projeto :toolbox:
 </h2>
 Este projeto foi desenvolvido com Visual Studio Code <br> 
-February 2021 (version 1.54)<a href="https://code.visualstudio.com/">Visual Studio Code</a>
+February 2021 (version 1.54)<a href="https://code.visualstudio.com/">Download</a>
 
 
 <h2 align="center">
