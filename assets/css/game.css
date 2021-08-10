@@ -23,7 +23,7 @@ p {
 a,
 h1,
 span,
-p {
+h4 {
   width: 18%;
   height: 100px;
 
@@ -33,6 +33,7 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: aliceblue;
 }
 
 .btn2 {
