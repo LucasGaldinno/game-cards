@@ -34,4 +34,4 @@ February 2021 (version 1.54)<a href="https://code.visualstudio.com/">Download</a
 :dart:Conclusão
 </h2>
 <img src="https://raw.githubusercontent.com/LucasGaldinno/quiz-anime/main/Screenshots/record.png">
-Ao termino do jogo os seus pontos vão estar somados lá em cima no menu, clique no botão salvar e insira seu nome. Pronto sua pontuação foi salva e seu nome deve estar aparecendo em (Record).
+Ao termino do jogo os seus pontos vão estar somados lá em cima no menu, clique no botão salvar. Pronto sua pontuação foi salva e seu record atual deve estar aparecendo em (Record).
