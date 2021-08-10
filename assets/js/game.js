@@ -7,7 +7,7 @@ function verificar1(){
         document.getElementById("span1").textContent = "Parabéns duelista, você acertou!!"
         document.getElementById("span1").style.color = "green"
         pontuacaoAtual += 20
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -16,7 +16,7 @@ function verificar1(){
         document.getElementById("span1").textContent = "Que pena duelista, você errou..."
         document.getElementById("span1").style.color = "red"
         pontuacaoAtual -= 10
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -29,7 +29,7 @@ function verificar2(){
         document.getElementById("span2").textContent = "Parabéns duelista, você acertou!!"
         document.getElementById("span2").style.color = "green"
         pontuacaoAtual += 20
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -38,7 +38,7 @@ function verificar2(){
         document.getElementById("span2").textContent = "Que pena duelista, você errou..."
         document.getElementById("span2").style.color = "red"
         pontuacaoAtual -= 10
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -51,7 +51,7 @@ function verificar3(){
         document.getElementById("span3").textContent = "Parabéns duelista, você acertou!!"
         document.getElementById("span3").style.color = "green"
         pontuacaoAtual += 20
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -60,7 +60,7 @@ function verificar3(){
         document.getElementById("span3").textContent = "Que pena duelista, você errou..."
         document.getElementById("span3").style.color = "red"
         pontuacaoAtual -= 10
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -72,7 +72,7 @@ function verificar4(){
         document.getElementById("span4").textContent = "Parabéns duelista, você acertou!!"
         document.getElementById("span4").style.color = "green"
         pontuacaoAtual += 20
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -81,7 +81,7 @@ function verificar4(){
         document.getElementById("span4").textContent = "Que pena duelista, você errou..."
         document.getElementById("span4").style.color = "red"
         pontuacaoAtual -= 10
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -94,7 +94,7 @@ function verificar5(){
         document.getElementById("span5").textContent = "Parabéns duelista, você acertou!!"
         document.getElementById("span5").style.color = "green"
         pontuacaoAtual += 20
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -103,7 +103,7 @@ function verificar5(){
         document.getElementById("span5").textContent = "Que pena duelista, você errou..."
         document.getElementById("span5").style.color = "red"
         pontuacaoAtual -= 10
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -115,7 +115,7 @@ function verificar6(){
         document.getElementById("span6").textContent = "Parabéns duelista, você acertou!!"
         document.getElementById("span6").style.color = "green"
         pontuacaoAtual += 20
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -124,7 +124,7 @@ function verificar6(){
         document.getElementById("span6").textContent = "Que pena duelista, você errou..."
         document.getElementById("span6").style.color = "red"
         pontuacaoAtual -= 10
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -137,7 +137,7 @@ function verificar7(){
         document.getElementById("span7").textContent = "Parabéns duelista, você acertou!!"
         document.getElementById("span7").style.color = "green"
         pontuacaoAtual += 20
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -146,7 +146,7 @@ function verificar7(){
         document.getElementById("span7").textContent = "Que pena duelista, você errou..."
         document.getElementById("span7").style.color = "red"
         pontuacaoAtual -= 10
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -159,7 +159,7 @@ function verificar8(){
         document.getElementById("span8").textContent = "Parabéns duelista, você acertou!!"
         document.getElementById("span8").style.color = "green"
         pontuacaoAtual += 20
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -168,7 +168,7 @@ function verificar8(){
         document.getElementById("span8").textContent = "Que pena duelista, você errou..."
         document.getElementById("span8").style.color = "red"
         pontuacaoAtual -= 10
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -181,7 +181,7 @@ function verificar9(){
         document.getElementById("span9").textContent = "Parabéns duelista, você acertou!!"
         document.getElementById("span9").style.color = "green"
         pontuacaoAtual += 20
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -190,7 +190,7 @@ function verificar9(){
         document.getElementById("span9").textContent = "Que pena duelista, você errou..."
         document.getElementById("span9").style.color = "red"
         pontuacaoAtual -= 10
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -204,7 +204,7 @@ function verificar10(){
         document.getElementById("span10").textContent = "Parabéns duelista, você acertou!!"
         document.getElementById("span10").style.color = "green"
         pontuacaoAtual += 20
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -213,7 +213,7 @@ function verificar10(){
         document.getElementById("span10").textContent = "Que pena duelista, você errou..."
         document.getElementById("span10").style.color = "red"
         pontuacaoAtual -= 10
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -227,7 +227,7 @@ function verificar11(){
         document.getElementById("span11").textContent = "Parabéns duelista, você acertou!!"
         document.getElementById("span11").style.color = "green"
         pontuacaoAtual += 20
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -236,7 +236,7 @@ function verificar11(){
         document.getElementById("span11").textContent = "Que pena duelista, você errou..."
         document.getElementById("span11").style.color = "red"
         pontuacaoAtual -= 10
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -249,7 +249,7 @@ function verificar12(){
         document.getElementById("span12").textContent = "Parabéns duelista, você acertou!!"
         document.getElementById("span12").style.color = "green"
         pontuacaoAtual += 20
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
@@ -258,7 +258,7 @@ function verificar12(){
         document.getElementById("span12").textContent = "Que pena duelista, você errou..."
         document.getElementById("span12").style.color = "red"
         pontuacaoAtual -= 10
-        document.getElementById("record").textContent = pontuacaoAtual
+        document.getElementById("score").textContent = pontuacaoAtual
 
         console.log(`Pontuação atual ${pontuacaoAtual}`)
     }
