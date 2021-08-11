@@ -1,54 +1,40 @@
-*,
-*::before *::after {
-  font-family: 'Fira Sans', sans-serif;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; 
-}
-
 body {
   background: url(../img/caparanking.png) fixed center;
   background-size: cover;
+  margin: 0;
+  height: 0;
+  padding: 350px;
+  font-family: 'Fira Sans', sans-serif;
 }
 
-body {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  color: rgb(255, 255, 255);
-  font-size: 0.9rem;
-  background-color: rgb(199, 199, 212);
-  margin-top: 301px;
+*{
+  box-sizing: border-box;
 }
 
-table {
+.table{
+  width: 70%;
   border-collapse: collapse;
+  color: aliceblue;
+  margin-left: 150px;
+}
+
+.table td, .table th{
+  padding: 12px 15px;
+  border: 1px solid rgb(16, 2, 138);
+  background-color: rgb(160, 0, 0);
+  text-align: center;
+  font-size: 26px;
+}
+
+.table th {
   box-shadow: 0 5px 10px rgb(16, 2, 138);
   background-color: rgb(160, 0, 0);
-  text-align: left;
-  overflow: hidden;
 }
 
-thead {
-  box-shadow: 0 5px 10px rgb(16, 2, 138);
+.table tbody tr:nth-child(even){
+  background-color: #6d0202;
 }
 
-th {
-  padding: 1rem 2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-size: 1.7rem;
-  font-weight: 900;
-}
-
-td {
-  padding: 1rem 2rem;
-  font-size: 1.7rem;
-}
-
-.record {
-  text-align: right;
-}
 
 .btn {
   background-color: rgb(0, 38, 255);
@@ -60,7 +46,7 @@ td {
   margin-top: 0.2rem;
   font-size: 1.8rem;
   color: aliceblue;
-  margin-left: 347px;
+  margin-left: 520px;
 }
 
 .btn:hover {
@@ -73,6 +59,70 @@ td {
   text-decoration: none;
 }
 
-a {
-  text-decoration: none;
+@media(max-width: 1000px){
+  body {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .table{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .btn {
+  margin-left: 330px;
+  }
+}
+@media(max-width: 500px){
+  body {
+    background: url(https://pm1.narvii.com/6424/9fc6bbc3f8d28145efe82bb5f38db5ac4f62f124_hq.jpg) fixed center;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .table{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .btn {
+    margin-left: 99px;
+  }
+
+  .table thead{
+    display: none;
+  }
+
+  .table, .table tbody, .table tr, .table td{
+    display: block;
+    width: 100%;
+  }
+
+  .table tr{
+    margin-bottom: 15px;
+  }
+
+  .table td{
+    text-align: right;
+    padding-left: 50%;
+    text-align: right;
+    position: relative;
+  }
+
+  .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .table td, .table th{
+    font-size: 16px;
+  }
 }
