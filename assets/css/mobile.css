@@ -3,6 +3,7 @@
   body {
     background: url(../img/logomobile.jpg) fixed center;
     background-size: cover;
+    height: 0px;
   }
   .container {
     width: 100%;
