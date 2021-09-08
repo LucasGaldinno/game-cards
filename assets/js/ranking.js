@@ -8,7 +8,7 @@ function loadRecord() {
 }
 
 function saveRecord() {
-  let nome = prompt("Digite seu Nome?");
+  let nome = prompt("Digite seu Nome:");
   console.log(nome);
   localStorage.setItem("record", pontuacaoAtual)
   loadRecord()
